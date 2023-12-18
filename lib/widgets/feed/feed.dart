@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_instagram_challenge/widgets/post_actions/post_actions.dart';
+import 'package:flutter_instagram_challenge/widgets/post_info/post_info.dart';
 
 class Feed extends StatelessWidget {
   const Feed({super.key});
@@ -10,7 +11,8 @@ class Feed extends StatelessWidget {
       children: const [
         Header(),
         FeedData(),
-        PostActions()
+        PostActions(),
+        PostInfo()
       ],
     );
   }
@@ -68,7 +70,7 @@ class FeedData extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: MediaQuery.of(context).size.width,
-      height: 370,
+      height: 330,
       child: const Image(
         image: NetworkImage(
             'https://i0.wp.com/www.arrobanerd.com.br/wp-content/uploads/2023/02/super-mario-bros-luigi.jpg?fit=800%2C445&ssl=1'),
