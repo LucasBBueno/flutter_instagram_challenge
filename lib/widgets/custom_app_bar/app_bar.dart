@@ -9,19 +9,26 @@ class CustomAppBar extends AppBar {
           title: const Text(
             'Instagram',
             style: TextStyle(
-              fontFamily: 'Billabong',
-              fontSize: 40,
-            ),
+                fontFamily: 'Billabong', fontSize: 40, color: Colors.white),
           ),
           actions: const [
-            Icon(Icons.add_box_outlined),
+            Icon(
+              Icons.add_box_outlined,
+              color: Colors.white,
+            ),
             Padding(
               padding: EdgeInsets.all(16.0),
-              child: Icon(Icons.favorite_border_outlined),
+              child: Icon(
+                Icons.favorite_border_outlined,
+                color: Colors.white,
+              ),
             ),
             Padding(
               padding: EdgeInsets.only(right: 16),
-              child: Icon(Icons.chat_bubble_outline),
+              child: Icon(
+                Icons.chat,
+                color: Colors.white,
+              ),
             )
           ],
         );

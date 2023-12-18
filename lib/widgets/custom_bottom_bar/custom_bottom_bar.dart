@@ -39,7 +39,7 @@ class CustomBottomBar extends BottomNavigationBar {
                 height: 32,
                 child: CircleAvatar(
                   backgroundImage: NetworkImage(
-                      'https://portalpopline.com.br/wp-content/uploads/2023/04/super-mario-thumb.png'),
+                      'https://t2.tudocdn.net/680322?w=1920'),
                 ),
               ),
             ),

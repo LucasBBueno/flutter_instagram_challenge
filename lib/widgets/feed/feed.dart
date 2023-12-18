@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_instagram_challenge/widgets/post_actions/post_actions.dart';
 
 class Feed extends StatelessWidget {
   const Feed({super.key});
@@ -9,6 +10,7 @@ class Feed extends StatelessWidget {
       children: const [
         Header(),
         FeedData(),
+        PostActions()
       ],
     );
   }

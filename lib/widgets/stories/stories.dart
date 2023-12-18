@@ -15,7 +15,7 @@ class Stories extends StatelessWidget {
           children: const [
             StoryItem(
               imageUrl:
-                  'https://portalpopline.com.br/wp-content/uploads/2023/04/super-mario-thumb.png',
+                  'https://t2.tudocdn.net/680322?w=1920',
               avatarName: 'Seu story',
             ),
             StoryItem(
