@@ -7,3 +7,4 @@ Aplicação para desafio do treinamento na Academia do Flutter.
 - [x] Criação do app
 - [x] Layout
 - [ ] Conteúdo dinamico via API mock
+- [ ] Utilização Bloc para gerenciamento de estado
